@@ -115,12 +115,12 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "ERGOL";
             bindings = <
-&kp TAB    &kp Q         &kp W            &kp E                &kp R                   &kp T                               &kp UP                &kp Y        &kp U                    &kp I                 &kp O             &kp P                    &kp BSPC
-&td0       &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_COMMAND D  &HMShiftL LEFT_SHIFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &HMShiftR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMI  &kp SQT
-&kp LCTRL  &kp Z         &kp X            &kp C                &kp V                   &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M                    &kp COMMA             &kp DOT           &kp FSLH                 &kp ESC
-                                          &kp LGUI             &lt 1 TAB               &lt 3 SPACE                                               &lt 3 ENTER  &lt 2 ESC                &kp BACKSPACE
+&trans      &kp Q         &kp W            &kp E                &kp R                   &kp T                               &kp UP                &kp Y        &kp U                    &kp I                 &kp O             &kp P                    &trans
+&caps_word  &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_COMMAND D  &HMShiftL LEFT_SHIFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &HMShiftR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMI  &kp SQT
+&trans      &kp Z         &kp X            &kp C                &kp V                   &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M                    &kp COMMA             &kp DOT           &kp FSLH                 &trans
+                                           &kp DELETE           &lt 1 TAB               &lt 3 SPACE                                               &lt 3 ENTER  &lt 2 ESC                &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
@@ -153,10 +153,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
+&studio_unlock  &kp F1  &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
+&trans          &trans  &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&trans          &trans  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                   &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
