@@ -150,9 +150,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&none  &kp F1  &kp F2  &kp F3  &kp F10  &none                            &mmv MOVE_UP                     &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp K_MUTE       &kp C_VOLUME_DOWN                 &kp C_VOLUME_UP
-&none  &kp F4  &kp F5  &kp F6  &kp F11  &none            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none           &none             &none       &none            &none                             &none
-&none  &kp F7  &kp F8  &kp F9  &kp F12  &none   &none                    &mmv MOVE_DOWN                   &bl BL_DEC      &bl BL_TOG        &bl BL_INC  &rgb_ug RGB_TOG  &rgb_ug RGB_COLOR_HSB(145,63,14)  &rgb_ug RGB_COLOR_HSB(202,70,26)
+&none  &kp F1  &kp F2  &kp F3  &kp F10  &none                            &mmv MOVE_UP                     &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT            &kp K_MUTE            &kp C_VOLUME_DOWN                 &kp C_VOLUME_UP
+&none  &kp F4  &kp F5  &kp F6  &kp F11  &none            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none           &none             &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none                             &none
+&none  &kp F7  &kp F8  &kp F9  &kp F12  &none   &none                    &mmv MOVE_DOWN                   &bl BL_DEC      &bl BL_TOG        &bl BL_INC            &rgb_ug RGB_TOG       &rgb_ug RGB_COLOR_HSB(145,63,14)  &rgb_ug RGB_COLOR_HSB(202,70,26)
                        &trans  &trans   &trans                                                            &trans          &trans            &trans
             >;
 
