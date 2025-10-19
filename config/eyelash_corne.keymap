@@ -124,8 +124,6 @@
 &none  &kp Z         &kp X            &kp C                &kp V              &kp B    &none              &kp DOWN              &kp N       &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &none
                                       &caps_word           &lt 1 SPACE        &kp TAB                                           &kp ESCAPE  &lt 2 ENTER         &morph_backspace
             >;
-
-            sensor-bindings = <&inc_dec_kp RIGHT_BRACKET LEFT_BRACKET>;
         };
 
         NUMBER_NAV {
@@ -136,8 +134,6 @@
 &none         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK      &kp EQUAL     &none                    &mmv MOVE_DOWN                   &none   &kp HOME        &kp END         &kp PAGE_UP   &kp PAGE_DOWN    &none
                                           &trans        &trans         &trans                                                                  &trans  &trans          &trans
             >;
-
-            sensor-bindings = <&scroll_encoder>;
         };
 
         FN {
