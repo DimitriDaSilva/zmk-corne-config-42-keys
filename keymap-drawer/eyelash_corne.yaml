@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-tab$$', h: NUMBER & NAV}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-esc$$', h: FN}
+  - {t: '$$mdi:keyboard-space$$', h: NUMBER & NAV}
+  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-return$$', h: FN}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   NUMBER & NAV:
   - {t: ',', s: <}
