@@ -50,12 +50,12 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: FN}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   NUMBER & NAV:
-  - {t: ',', s: <}
+  - KP COMMA
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - '0'
-  - {t: '-', s: _}
+  - KP MINUS
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -63,11 +63,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ., s: '>'}
+  - KP DOT
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - {t: /, s: '?'}
+  - KP DIVIDE
   - +
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
@@ -109,7 +109,7 @@ layers:
   - PREVIOUS
   - PLAY PAUSE
   - $$mdi:skip-next$$
-  - MUTE
+  - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
