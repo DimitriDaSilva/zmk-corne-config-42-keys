@@ -121,12 +121,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - '&bl BL_CYCLE'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&bl BL_TOG'
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB COLOR HSB(0,70,51)
+  - RGB COLOR HSB(58,100,57)
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F7
   - F8
@@ -135,12 +135,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '&bl BL_TOG'
-  - RGB BRD
   - RGB TOG
+  - RGB EFF
+  - RGB BRD
   - RGB BRI
   - RGB COLOR HSB(145,68,41)
-  - RGB COLOR HSB(202,70,26)
+  - RGB COLOR HSB(202,84,38)
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
