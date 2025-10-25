@@ -149,10 +149,10 @@
 
         SPECIAL {
             bindings = <
-&kp  &kp NUMBER_9  &kp           &kp           &kp  &kp              &kp       &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp NUMBER_0  &kp NUMBER_2  &kp NUMBER_7  &kp  &kp         &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp  &kp
-&kp  &kp           &kp           &kp           &kp  &kp  &kp         &kp       &kp  &kp  &kp  &kp  &kp  &kp
-                                 &kp           &kp  &kp                        &kp  &kp  &kp
+&trans  &kp NUMBER_9  &trans        &trans        &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_0  &kp NUMBER_2  &kp NUMBER_7  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans  &trans                                    &trans  &trans  &trans
             >;
         };
 
