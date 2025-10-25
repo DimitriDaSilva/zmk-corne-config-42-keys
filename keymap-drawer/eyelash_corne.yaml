@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SYMBOLS}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   NUMBER & NAV:
-  - KP COMMA
+  - {t: ',', s: <}
   - {t: Sft+1, s: Sft+!}
   - {t: Sft+2, s: Sft+@}
   - {t: Sft+3, s: Sft+#}
@@ -63,12 +63,12 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP DOT
+  - {t: Sft+., s: Sft+>}
   - Sft+4
   - {t: Sft+5, s: Sft+%}
   - Sft+6
   - KP DIVIDE
-  - +
+  - {t: /, s: '?'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -78,12 +78,12 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Alt+1
+  - {t: 'Alt+]', s: 'Alt+}'}
   - Sft+7
   - Sft+8
   - Sft+9
-  - '*'
-  - {t: '=', s: +}
+  - {t: '8', s: '*'}
+  - {t: Sft+/, s: 'Sft+?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -100,7 +100,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOLS:
   - {t: '$$mdi:transfer$$', type: trans}
-  - ^
+  - {t: '[', s: '{'}
   - <
   - '>'
   - $
