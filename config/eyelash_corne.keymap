@@ -124,10 +124,10 @@
         ERGOL {
             display-name = "ERGOL";
             bindings = <
-&none  &kp Q         &kp W            &kp E                &kp R              &kp T                       &kp UP                &kp Y       &kp U               &kp I                 &kp O             &kp P                    &none
-&none  &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_COMMAND D  &HML LEFT_SHIFT F  &kp G             &kp LEFT  &kp ENTER  &kp RIGHT  &kp H       &HMR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMI  &none
-&none  &kp Z         &kp X            &kp C                &kp V              &kp B    &none              &kp DOWN              &kp N       &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &none
-                                      &kp LEFT_SHIFT       &lt 1 SPACE        &kp TAB                                           &kp ESCAPE  &lt 2 ENTER         &morph_backspace
+&none  &kp Q         &kp W            &kp E                &kp R              &kp T                               &mmv MOVE_UP                     &kp Y         &kp U               &kp I                 &kp O             &kp P                    &none
+&none  &HML LCTRL A  &HML LEFT_ALT S  &HML LEFT_COMMAND D  &HML LEFT_SHIFT F  &kp G               &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H         &HMR RIGHT_SHIFT J  &HMR RIGHT_COMMAND K  &HMR RIGHT_ALT L  &HMR RIGHT_CONTROL SEMI  &none
+&none  &kp Z         &kp X            &kp C                &kp V              &kp B      &none                    &mmv MOVE_DOWN                   &kp N         &kp M               &kp COMMA             &kp DOT           &kp FSLH                 &none
+                                      &kp LEFT_SHIFT       &lt 1 SPACE        &lt 2 TAB                                                            &lt 2 ESCAPE  &lt 1 ENTER         &morph_backspace
             >;
         };
 
